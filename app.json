@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Trecco",
+    "slug": "Trecco",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#b4373a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bryanmedia.Tremma"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#F5FCFF"
+      },
+      "package": "com.bryanmedia.Tremma",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/appIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82027fae-c47b-44b3-947e-42db16a9c735"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "scheme": "trecco",
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
